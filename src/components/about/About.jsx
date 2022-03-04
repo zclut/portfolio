@@ -7,6 +7,7 @@ import { VscFolderLibrary } from 'react-icons/vsc';
 const About = () => {
     return (
         <section id="about">
+            <h5>Get to know</h5>
             <h2>Sobre mi</h2>
 
             <div className="container about__container">
@@ -33,8 +34,8 @@ const About = () => {
 
                     <p>
                         Soy Juan Daniel Padilla, un desarrollador web FullStack ubicado en Santa Cruz de Tenerife, España.
-                         Me dedico a la creación de sitios web y aplicaciones web principalmente utilizando el stack 
-                         de MERN (MongoDB, Express, React, Node).
+                        Me dedico a la creación de sitios web y aplicaciones web principalmente utilizando el stack
+                        de MERN (MongoDB, Express, React, Node).
                     </p>
 
                     <a href="#contact" className='btn btn-primary'>Contáctame</a>
