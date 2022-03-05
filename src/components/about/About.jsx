@@ -7,7 +7,6 @@ import { VscFolderLibrary } from 'react-icons/vsc';
 const About = () => {
     return (
         <section id="about">
-            <h5>Get to know</h5>
             <h2>Sobre mi</h2>
 
             <div className="container about__container">
@@ -38,7 +37,7 @@ const About = () => {
                         de MERN (MongoDB, Express, React, Node).
                     </p>
 
-                    <a href="#contact" className='btn btn-primary'>Contáctame</a>
+                    <a href="https://www.linkedin.com/in/juan-daniel-padilla-491294221/" className='btn btn-primary' target="_blank">Contáctame</a>
                 </div>
             </div>
         </section>

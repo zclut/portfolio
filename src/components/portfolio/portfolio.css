@@ -12,7 +12,7 @@
     transition: var(--transition);
 }
 
-.portfolio__item:hover{
+.portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
 }
@@ -20,6 +20,11 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+}
+.portfolio__item-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio__item h3 {
@@ -30,6 +35,7 @@
 .portfolio__item-cta {
     display: flex;
     margin-bottom: 1rem;
+    justify-content: center;
 }
 
 .portfolio__item-cta a {
@@ -42,6 +48,7 @@
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
+        margin: 0 1.5rem 0 !important;
     }
 }
 

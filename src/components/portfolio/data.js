@@ -1,14 +1,17 @@
+import finaccess from '../../assets/portfolio/finaccess.png';
+import barDeJuan from '../../assets/portfolio/bardejuan.png';
+
 export const data = [
     {
         id: 1,
-        image: "",
+        image: barDeJuan,
         title: "Bar de Juan",
-        github: "https://github.com/zclut"
+        github: "https://github.com/zclut/bardejuan-app"
     },
     {
         id: 2,
-        image: "",
+        image: finaccess,
         title: "Finaccess",
-        github: "https://github.com/zclut"
+        github: "https://github.com/zclut/FinaccessBackend"
     }
 ]
