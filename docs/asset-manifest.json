@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7bf99dc7.css",
+    "main.js": "./static/js/main.1831fe34.js",
+    "static/media/bardejuan.png": "./static/media/bardejuan.fb8d512d8820498a5e07.png",
+    "static/media/finaccess.png": "./static/media/finaccess.28784e285a704b0b5023.png",
+    "static/media/cv.pdf": "./static/media/cv.2a29486f0f5447c84fc8.pdf",
+    "static/media/me.svg": "./static/media/me.1a710f86eefdf53f07ddcc635332c78c.svg",
+    "index.html": "./index.html",
+    "main.7bf99dc7.css.map": "./static/css/main.7bf99dc7.css.map",
+    "main.1831fe34.js.map": "./static/js/main.1831fe34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bf99dc7.css",
+    "static/js/main.1831fe34.js"
+  ]
+}
