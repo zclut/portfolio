@@ -3,7 +3,6 @@ import './nav.css';
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineUser } from 'react-icons/ai';
 import { BiBook } from 'react-icons/bi';
-import { RiServiceLine } from 'react-icons/ri';
 import { BsFillBagDashFill } from 'react-icons/bs';
 
 const Nav = () => {
@@ -13,9 +12,9 @@ const Nav = () => {
   return (
     <nav>
       <a
-        href="#"
+        href="#home"
         onClick={() => setActiveNav('#')}
-        className={activeNav === '#' ? 'active' : ''}
+        className={activeNav === '#home' ? 'active' : ''}
       ><AiOutlineHome /></a>
 
       <a
